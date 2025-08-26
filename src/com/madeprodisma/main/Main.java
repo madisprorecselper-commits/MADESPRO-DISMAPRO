@@ -7,9 +7,9 @@ public class Main {
     public static void main(String[] args) {
         Connection conn = Conexion.getConnection();
         if (conn != null) {
-            System.out.println("✅ Conexión probada con éxito!");
+            System.out.println("✅Conexión probada con éxito!");
         } else {
-            System.out.println("❌ No se pudo conectar.");
+            System.out.println("❌No se pudo conectar.");
         }
     }
 }
